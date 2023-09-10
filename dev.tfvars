@@ -1,0 +1,12 @@
+region                     = "us-east-1"
+log_group_name             = "iam_api_monitoring"
+protocol                   = "email"
+email                      = "" # 자신의 등록할 이메일
+s3_bucket_name             = "iam-api-monitoring-dkim"
+cloud_trail_trace_name     = "iam_api_monitoring"
+cloud_watch_policy_name    = "cloud_watch_policy_name"
+cloud_watch_role_name      = "cloud_watch_role_name"
+sns_topic_name             = "iam_api_monitoring"
+event_bridge_rule_name     = "iam_api_monitoring_rule"
+event_bridge_sns_role_name = "eventbridge-sns-role"
+account_id = "" # 자신의 account_id
